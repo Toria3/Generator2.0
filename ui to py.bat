@@ -1,1 +1,1 @@
-python -m PyQt6.uic.pyuic -o design.py -x untitled.ui
+python -m PyQt6.uic.pyuic -o design.py -x buttons.ui
