@@ -514,6 +514,9 @@
     </sizepolicy>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>15</number>
+    </property>
     <property name="leftMargin">
      <number>10</number>
     </property>
@@ -552,13 +555,13 @@
           </property>
           <property name="minimumSize">
            <size>
-            <width>350</width>
+            <width>40</width>
             <height>0</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
-            <width>350</width>
+            <width>360</width>
             <height>60</height>
            </size>
           </property>
@@ -731,12 +734,6 @@ border-radius: 20px;
             <horstretch>0</horstretch>
             <verstretch>0</verstretch>
            </sizepolicy>
-          </property>
-          <property name="minimumSize">
-           <size>
-            <width>300</width>
-            <height>0</height>
-           </size>
           </property>
           <property name="maximumSize">
            <size>
@@ -911,12 +908,6 @@ border-radius: 20px;
         </property>
         <item alignment="Qt::AlignHCenter">
          <widget class="QLabel" name="label_5">
-          <property name="minimumSize">
-           <size>
-            <width>300</width>
-            <height>0</height>
-           </size>
-          </property>
           <property name="maximumSize">
            <size>
             <width>340</width>
@@ -933,6 +924,9 @@ border-radius: 20px;
           </property>
           <property name="text">
            <string>3) Выбери стиль:</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -1095,7 +1089,7 @@ border-radius: 20px;
           </property>
           <property name="minimumSize">
            <size>
-            <width>350</width>
+            <width>260</width>
             <height>60</height>
            </size>
           </property>
@@ -1114,7 +1108,7 @@ border-radius: 20px;
            </font>
           </property>
           <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;4) Нажми на кнопку,&lt;/p&gt;&lt;p&gt;чтобы увидеть результат&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;4) Нажми на кнопку,&lt;/p&gt;&lt;p&gt;чтобы увидеть результат:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
